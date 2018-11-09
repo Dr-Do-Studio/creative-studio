@@ -18,10 +18,6 @@ h3 {
   margin: 0;
 }
 
-h1 {
-  letter-spacing: 3px;
-}
-
 li a {
   text-decoration: none;
   color: #fff;
@@ -246,7 +242,7 @@ nav a:hover:after {
 }
 
 a.active {
-  border-bottom: 2px solid #ffcc1e;
+  color: #ffcc1e;
 }
 
 .button-container {
