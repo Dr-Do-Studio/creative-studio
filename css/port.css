@@ -1,0 +1,150 @@
+section#port {
+  background-image: url(../imgs/Port-P1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover; }
+
+section#port {
+  padding-top: 15rem; }
+
+.d-home .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 94%;
+  opacity: 0.7;
+  background-color: #000000; }
+
+section#port h1 {
+  font-size: 5vw; }
+
+.scroll-indicator {
+  height: 70px;
+  width: 20%;
+  background-image: url(../imgs/heart.png);
+  background-position: center;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  animation-duration: 0.5s;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 500px;
+  cursor: pointer;
+  left: 40%; }
+
+@keyframes fade {
+  0% {
+    background-size: 50px; }
+  75% {
+    background-size: 60px; }
+  100% {
+    background-size: 50px; } }
+.home-content-main {
+  text-align: center; }
+
+.love {
+  font-size: 6vw;
+  animation-duration: 3s;
+  animation-name: change;
+  animation-iteration-count: infinite; }
+
+@keyframes change {
+  0% {
+    color: #ffcc1e; }
+  25% {
+    color: #003f87; }
+  50% {
+    color: #47d6c1; }
+  75% {
+    color: #fb2366; } }
+section#port-P2 {
+  color: black;
+  background: white; }
+
+.proj-img {
+  width: 40%;
+  float: left;
+  text-align: center; }
+
+.proj-intro {
+  width: 50%;
+  float: right;
+  margin-top: 30px; }
+  @media screen and (max-width: 414px) {
+    .proj-intro {
+      width: 100%; } }
+
+section.d-port {
+  padding: 30px; }
+
+.proj-img img {
+  width: 80%; }
+
+section#port-P4 {
+  background: #fff;
+  color: black; }
+
+#port-P3 .proj-img {
+  width: 40%;
+  float: right;
+  text-align: center; }
+
+.proj-img.port-1 {
+  position: absolute;
+  bottom: -361px;
+  width: 250px;
+  margin-left: 5%; }
+
+a.download-img img {
+  width: 40%; }
+
+p.proj-title {
+  font-size: 30px; }
+
+p.section-content {
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.circle {
+  float: left;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 6%;
+  text-align: center;
+  padding-top: 57px;
+  font-size: 74px; }
+
+.circle-1 {
+  border: 6px solid #003f87;
+  color: #003f87; }
+
+.circle-2 {
+  border: 6px solid #ffcc1e;
+  color: #ffcc1e; }
+
+.circle-3 {
+  border: 6px solid #fb2366;
+  color: #fb2366; }
+
+section#port-P5 {
+  text-align: center; }
+
+.person-profile {
+  width: 26%;
+  padding: 40px;
+  background: #fff;
+  color: black;
+  margin: 30px;
+  float: left;
+  text-align: center; }
+
+.person-profile:hover {
+  background: black;
+  border: 2px solid #fff;
+  color: #fff; }
+
+/*# sourceMappingURL=port.css.map */
