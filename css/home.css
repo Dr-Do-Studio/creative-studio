@@ -45,6 +45,16 @@ header h1:nth-child(2) {
   letter-spacing: 0px;
   white-space: nowrap;
 }
+header h1:nth-child(3) {
+  font-size: calc(2rem + 1.8vw);
+  color: #ffcc1e;
+  grid-column: 5 / 7;
+  grid-row: 4 / 5;
+  justify-self: end;
+  margin-top: -34px;
+  letter-spacing: 0px;
+  white-space: nowrap;
+}
 header .menu-link {
   grid-column: 4 / 6;
   grid-row: 1 / 2;
